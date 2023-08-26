@@ -3,3 +3,52 @@
     src: url(./assets/fonts/static/InstrumentSans-Bold.ttf);
   }
   
+.header-main-cont {
+  width: 100%;
+  height: 74px;
+  background: var(--white, #FFF);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-cont {
+  max-width: 335px;
+  width: 100%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links-profile-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 121px;
+}
+
+.eye__icon-cont {
+  width: 52px;
+  height: 42px;
+  border: 1px solid #633CFF;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-cont {
+  display: flex;
+  width: 74px;
+  height: 42px;
+  border-radius: 8px;
+  background: #EFEBFF;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-img-header {
+  filter: invert(32%) sepia(77%) saturate(7119%) hue-rotate(248deg) brightness(105%) contrast(101%);
+}
