@@ -1,20 +1,29 @@
 @font-face {
-    font-family: instumentBold;
-    src: url(./assets/fonts/static/InstrumentSans-Bold.ttf);
-  }
-  
+  font-family: instumentBold;
+  src: url(./assets/fonts/static/InstrumentSans-Bold.ttf);
+}
+
+
+/*------------------------ Header ------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .header-main-cont {
   width: 100%;
   height: 74px;
-  background: var(--white, #FFF);
+  padding: 24px;
   display: flex;
+  background: #FFF;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .header-cont {
-  max-width: 335px;
   width: 100%;
   height: 42px;
   display: flex;
@@ -22,11 +31,18 @@
   justify-content: space-between;
 }
 
+.logo-devlink-large {
+  display: none;
+  width: 146px;
+  height: 32px;
+}
+
 .links-profile-cont {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 121px;
+  width: 148px;
+  margin: 0 auto;
 }
 
 .eye__icon-cont {
@@ -49,6 +65,157 @@
   align-items: center;
 }
 
-.link-img-header {
-  filter: invert(32%) sepia(77%) saturate(7119%) hue-rotate(248deg) brightness(105%) contrast(101%);
+.link-value {
+  display: none;
+  margin-left: 8px;
+  color: #633CFF;
+
+  font-family: instumentBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
 }
+
+.links-cont-profile {
+  display: flex;
+  width: 74px;
+  height: 42px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-profile-value {
+  display: none;
+}
+
+.link-img-header {
+  filter: invert(46%) sepia(89%) saturate(7151%) hue-rotate(247deg) brightness(99%) contrast(105%);
+}
+
+.preview {
+  display: none;
+  color: #633CFF;
+
+  font-family: instumentBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+/*------------------------ Header ------------------------*/
+
+
+
+/*------------------------ Header Responsive ------------------------*/
+
+@media (min-width: 500px) {
+
+  .logo-devlink {
+    display: none;
+  }
+
+  .logo-devlink-large {
+    display: block;
+  }
+
+}
+
+@media (min-width: 700px) {
+
+  .header-main-cont {
+    height: 126px;
+    background: none;
+    padding: 24px;
+  }
+
+  .header-cont {
+    width: 100%;
+    height: 78px;
+    padding: 0 16px 0 24px;
+    border-radius: 12px;
+    background-color: #FFF;
+  }
+
+  .links-cont {
+    width: 122px;
+    height: 46px;
+  }
+
+  .links-profile-cont {
+    width: 309px;
+    height: 46px;
+  }
+
+  .links-cont-profile {
+    width: 187px;
+    height: 46px;
+  }
+
+  .links-profile-value {
+    display: block;
+    margin-left: 8px;
+    color: #737373;
+
+    font-family: instumentBold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+  }
+
+  .link-value {
+    display: block;
+  }
+
+  .eye__icon-cont {
+    width: 114px;
+    height: 46px;
+  }
+
+  .eye-icon {
+    display: none;
+  }
+
+  .preview {
+    display: block;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .links-cont-profile:hover {
+    cursor: pointer;
+  }
+
+  .links-cont-profile:hover .links-profile-value {
+    color: #633CFF;
+  }
+
+  .links-cont-profile:hover .profile__icon-header {
+    filter: invert(46%) sepia(89%) saturate(7151%) hue-rotate(247deg) brightness(99%) contrast(105%);
+  }
+
+  .eye__icon-cont:hover {
+    cursor: pointer;
+    background-color: #EFEBFF;
+  }
+
+}
+
+@media (min-width: 1330px) {
+
+  .links-profile-cont {
+    width: 325px;
+  }
+
+  .links-cont-profile {
+    margin-left: 16px;
+  }
+
+}
+
+/*------------------------ Header Responsive ------------------------*/
