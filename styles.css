@@ -163,22 +163,10 @@ h2 {
     
 }
 
-.password:required:invalid {
-    border-color: red;
-}
 
 
-.password-error {
-    display: none;
-
-}
 
 
-.password-error:invalid {
-    text-align: left;
-    color:red;
-    font-size: 12px;
-}
 
 
 .password::placeholder {
