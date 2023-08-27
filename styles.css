@@ -13,10 +13,13 @@
 body {
     background-color: #FAFAFA;
    
-
 }
 
-
+header {
+    width: 182.5px;
+    height: 40px;
+    margin:auto;
+}
 
 .login-box {
     width: 476px;
