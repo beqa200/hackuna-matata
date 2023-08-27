@@ -1,7 +1,3 @@
-/*  Logos are in head styles */
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -15,11 +11,18 @@ body {
    
 }
 
+/*  --------------------Devlinks logo---------------------- */
+
+
 header {
     width: 182.5px;
     height: 40px;
-    margin:auto;
+    margin: 0 auto;
 }
+
+
+
+/*---- form basic details and H-s-------*/
 
 .login-box {
     width: 476px;
@@ -33,32 +36,15 @@ header {
     transform: translate(-50%, -50%);
     background-color: #ffffff;
     text-align: left;
-    
-    
+      
 }
+
 
 label {
     display: block;
     margin: 0.5rem 0;
 }
 
-/*  --------------------Devlinks logo---------------------- */
-
-.devlinks-logo {
-    width: 182.5px;
-    height: 40px;
-    margin:auto;
-    
-    
-}
-
-.svg-devlinks {
-    position: relative;
-    bottom:4px;
-    left: 5px;
-}
-
-/*  ------------Login and add your details -------------------*/
 
 h1, h2 {
     margin-left: 10%;
@@ -74,9 +60,9 @@ h1 {
     font-weight: 700;
     font-size: 32px;
     line-height: 48px;
-    
 
 }
+
 
 h2 {
    width:396px;
