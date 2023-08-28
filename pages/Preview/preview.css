@@ -1,15 +1,12 @@
 @font-face {
-    font-family: instumentBold;
-    src: url(/assets/fonts/static/InstrumentSans-Bold.ttf);
-  }
-  
-  @font-face {
-    font-family: InstrumentSans;
-    src: url(/assets/fonts/static/InstrumentSans-Regular.ttf);
-  }
+  font-family: instumentBold;
+  src: url(/assets/fonts/static/InstrumentSans-Bold.ttf);
+}
 
-
-
+@font-face {
+  font-family: InstrumentSans;
+  src: url(/assets/fonts/static/InstrumentSans-Regular.ttf);
+}
 
 * {
   margin: 0;
@@ -19,6 +16,7 @@
 
 body {
   background-color: #fafafa;
+  padding-bottom: 150px;
 }
 
 .preview-header {
@@ -54,7 +52,7 @@ body {
   border: 1px;
   gap: 8px;
   background: #fafafa;
-  color: #633CFF;
+  color: #633cff;
   border: 1px solid #633cff;
 }
 
@@ -68,11 +66,72 @@ body {
   border-radius: 8px;
   gap: 8px;
   background: #633cff;
-font-family: InstrumentSans;
-font-size: 16px;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-color: #fafafa;
+  font-family: InstrumentSans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fafafa;
+}
+
+.preview-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15%;
+  gap: 25px;
+}
+
+.preview-btn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 15%;
+  gap: 20px;
+}
+
+.btn {
+  background-color: none;
+  border: none;
+}
+
+.preview-pic {
+  border: 4px solid #633cff;
+  border-radius: 50%;
+  width: 104px;
+  height: 104px;
+}
+
+.name-email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-lastname {
+  font-family: instumentBold;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.email-txt {
+  font-family: InstrumentSans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #737373;
+}
+
+@media (min-width: 700px) {
+  
+
+  
+
 }
