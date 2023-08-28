@@ -41,7 +41,6 @@ header {
 
 
 
-
 h1, h2 {
     margin-left: 10%;
     margin-top: 5%;
@@ -83,13 +82,19 @@ h2 {
 
 
 .email {
+    background-image: url(./assets/images/icon-email.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
     width: 396px;
     height:48px;
     border-radius:8px;
     border-color: #D9D9D9;
     margin-left:35px;
+    margin-bottom: 20px;
+    padding-left: 35px;
 
 }
+
 
 
 
@@ -99,7 +104,8 @@ h2 {
     opacity: 15%;
     border-color: #633CFF;
     transition: 1s;
-
+    
+    
 }
 
 
@@ -131,11 +137,16 @@ h2 {
 }
 
 .password {
+    background-image: url(./assets/images/icon-password.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
     width: 396px;
     height:48px;
     border-radius:8px;
     border-color: #D9D9D9;
     margin-left: 35px;
+    padding-left: 35px;
+    
     
 }
 
@@ -166,6 +177,7 @@ h2 {
 label {
     margin-left: 35px;
     font-size: 12px;
+    
 }
 
 
@@ -216,21 +228,6 @@ a {
 
 a:hover {
     color: #a28cfa;
-}
-
-/* didn't work with background-img property so putting it like this */
-
-.password-icon {
-    position: relative;
-    right: 390px;
-    top:3px;
-}
-
-
-.email-icon {
-    position: relative;
-    right: 390px;
-    top:3px;
 }
 
 
