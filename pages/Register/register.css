@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Instrument Sans, sans-serif;
+    
+  }
+
+body {
+    background-color: #FAFAFA;
+    
+   
+}
+
+/*  --------------------Devlinks logo---------------------- */
+
+
+header {
+    width: 182.5px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+
+
+/*---- form basic details and H-s-------*/
+
+.login-box {
+    width: 476px;
+    height: 618px;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    text-align: left;
+      
+}
+
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+
+h1, h2 {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+
+
+h1 {
+    width:396px;
+    height: 48px;
+    color:#333333;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+
+}
+
+
+h2 {
+   width:396px;
+   height: 24px;
+   color:#333333;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   position: relative;
+   bottom: 70px;
+
+}
+
+
+/*  ---------------Email-------------------------- */
+
+.Email-Address {
+    font-size: 12px;   
+    margin-bottom: 10px;
+}
+
+
+
+.email {
+    width: 396px;
+    height:48px;
+    border-radius:8px;
+    border-color: #D9D9D9;
+    margin-left:35px;
+    background-image: url(./assets/images/icon-email.svg);
+    background-repeat: no-repeat;
+
+}
+
+
+
+.email:focus {
+    
+    box-shadow: 0px 0px 20px 20px #633cff; 
+    opacity: 15%;
+    border-color: #633CFF;
+    transition: 1s;
+
+}
+
+
+.email::placeholder {
+    position: absolute;
+    left: 35px;
+    opacity: 50%;
+}
+
+
+
+.email-error {
+    display: none;
+}
+
+.email-div, .create-password-div, .confirm-password-div {
+    position: relative;
+    bottom: 80px;
+    left: 10px;
+}
+
+
+
+/*  ---------Create Password---------------------------------- */
+
+.Password {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.password {
+    width: 396px;
+    height:48px;
+    border-radius:8px;
+    border-color: #D9D9D9;
+    margin-left: 35px;
+    background-color: url(./assets/images/icon-password.svg);
+    background-repeat: no-repeat;
+    
+}
+
+
+
+.password:focus {
+    box-shadow: 0px 0px 20px 20px #633cff; 
+    opacity: 15%;
+    transition: 1s;
+    
+}
+
+
+.password::placeholder {
+    position: absolute;
+    left: 35px;
+    opacity: 50%;
+}
+
+.password-error {
+    display: none;
+}
+
+
+/* confirm-password ------- */
+
+.confirm-password {
+    width: 396px;
+    height:48px;
+    border-radius:8px;
+    border-color: #D9D9D9;
+    margin-left: 35px;
+    position: relative;
+    background-color: url(./assets/images/icon-password.svg);
+    background-repeat: no-repeat;
+
+}
+
+
+.confirm-password:focus {
+    box-shadow: 0px 0px 20px 20px #633cff; 
+    opacity: 15%;
+    transition: 1s;
+    
+}
+
+
+.confirm-password::placeholder {
+    position: absolute;
+    left: 35px;
+    opacity: 50%;
+}
+
+.password-error {
+    display: none;
+}
+
+
+/*  ----labels  */
+
+label {
+    margin-left: 35px;
+    font-size: 12px;
+}
+
+
+
+/*  ----Button------------------------------------ */
+
+.login-button {
+    width: 396px;
+    height: 46px;
+    border-radius: 8px;
+    background-color: #633cff;
+    margin-left: 10%;
+    position: relative;
+    bottom: 35px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height:24px;
+    color: white;
+    border: none;
+    
+    
+}
+
+.login-button:hover {
+    background-color: #beadff;
+    transition: 0.3s;
+    border: none;
+}
+
+
+.bottom-note {
+    width: 396px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: gray;
+    position: relative;
+    bottom: 50px;
+    left: 45px;
+}
+
+
+
+
+/*  ---bottom link---------------------------- */
+
+
+.bottom-link {
+    color:#333333;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    top: 550px;
+    left: 130px;
+    
+}
+
+
+a {
+    color: #633CFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a28cfa;
+}
+
+
+
