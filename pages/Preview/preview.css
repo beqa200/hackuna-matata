@@ -129,9 +129,29 @@ body {
   color: #737373;
 }
 
+
 @media (min-width: 700px) {
+    .preview-header {
+      justify-content: space-between;  /* Aligns children at the start and the end */
+    }
   
-
+    .editor-share {
+      justify-content: space-between;  
+    }
   
-
-}
+    .editor-p, .share-p {
+      position: absolute;  
+      top: 0;  
+    }
+  
+    .editor-p {
+      left: 0;  
+      margin: 24px;
+    }
+  
+    .share-p {
+      right: 0;  
+      margin: 24px;
+    }
+  }
+  
