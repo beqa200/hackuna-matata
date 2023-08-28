@@ -221,6 +221,9 @@ label {
 /*  ----Button------------------------------------ */
 
 .login-button {
+    display: block;
+    text-align: center;
+    padding: 10px;
     width: 396px;
     height: 46px;
     border-radius: 8px;
@@ -233,7 +236,7 @@ label {
     line-height:24px;
     color: white;
     border: none;
-    
+    text-decoration: none;
     
 }
 
@@ -282,8 +285,4 @@ label {
     color: #a28cfa;
 }
 
-a {
-    text-decoration: none;
-    color:white;
-}
 
