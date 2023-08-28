@@ -226,6 +226,7 @@ body {
     margin-left: 12px;
     width: 100%;
     border: none;
+    outline: none;
 
     color: #333;
     font-family: instumentBold;
@@ -233,6 +234,10 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+}
+
+.input-url::placeholder {
+    opacity: 0.5;
 }
 
 .links-url-cont {
@@ -293,7 +298,7 @@ body {
     }
 
     .links-started-main-cont {
-        padding: 0 76.5px 20px 76.5px;
+        padding: 20px 76.5px 20px 76.5px;
     }
 
     .line {
@@ -334,6 +339,10 @@ body {
 
     .links-dropdown-cont:hover {
         cursor: pointer;
+        box-shadow: 0px 0px 32px 0px rgba(99, 60, 255, 0.25);
+    }
+
+    .links-dropdown-cont::content {
         box-shadow: 0px 0px 32px 0px rgba(99, 60, 255, 0.25);
     }
 
