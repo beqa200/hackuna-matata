@@ -217,14 +217,20 @@ label {
 }
 
 
-a {
+.link-color {
     color: #633CFF;
     text-decoration: none;
 }
 
-a:hover {
+.link-color:hover {
     color: #a28cfa;
 }
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
 
 
 
