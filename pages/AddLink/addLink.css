@@ -63,7 +63,7 @@ body {
     width: 100%;
     height: 100%;
     margin-top: 24px;
-    padding: 0 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
     border-radius: 12px;
     background-color: #FAFAFA;
     text-align: center;
@@ -134,6 +134,75 @@ body {
     display: none;
 }
 
+.link-num-cont {
+    display: flex;
+    width: 100%;
+    height: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-lines {
+    display: flex;
+    align-items: center;
+}
+
+.two-lines {
+    width: 12px;
+    height: 6px;
+}
+
+.lines {
+    width: 100%;
+    height: 1px;
+    background-color: #737373;
+}
+
+.line-bottom {
+    margin-top: 4px;
+}
+
+.link-num {
+    margin-left: 8px;
+    color: #737373;
+
+    font-family: instumentBold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.remove {
+    color: #737373;
+    font-family: instumentBold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.platform {
+    margin-top: 12px;
+    color: #333;
+
+    text-align: left;
+    font-family: instumentBold;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.links-dropdown-cont {
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+
+
 
 @media (min-width: 700px) {
 
@@ -186,7 +255,7 @@ body {
 }
 
 @media (min-width: 1200px) {
-    
+
     .main-cont {
         padding-bottom: 24px;
         display: flex;
