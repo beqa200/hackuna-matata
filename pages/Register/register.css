@@ -96,6 +96,7 @@ h2 {
     background-image: url(../../assets/images/icon-email.svg);
     background-repeat: no-repeat;
     background-position: 10px;
+    padding-left: 35px;
 
 }
 
@@ -147,6 +148,7 @@ h2 {
     background-image: url(../../assets/images/icon-password.svg);
     background-repeat: no-repeat;
     background-position: 10px;
+    padding-left: 35px;
     
 }
 
@@ -183,6 +185,7 @@ h2 {
     background-image: url(../../assets/images/icon-password.svg);
     background-repeat: no-repeat;
     background-position: 10px;
+    padding-left: 35px;
 
 }
 
