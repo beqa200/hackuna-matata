@@ -1,0 +1,78 @@
+@font-face {
+    font-family: instumentBold;
+    src: url(/assets/fonts/static/InstrumentSans-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: InstrumentSans;
+    src: url(/assets/fonts/static/InstrumentSans-Regular.ttf);
+  }
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.preview-header {
+  display: flex;
+  justify-content: center;
+  height: 78px;
+  padding: 16px 16px 16px 24px;
+  border-radius: 12px;
+  gap: 8px;
+}
+
+.editor-share {
+  width: 335px;
+  height: 46px;
+  gap: 16px;
+  display: flex;
+}
+
+.editor-p {
+  font-family: InstrumentSans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 159.5px;
+  height: 46px;
+  padding: 11px 27px 11px 27px;
+  border-radius: 8px;
+  border: 1px;
+  gap: 8px;
+  background: #fafafa;
+  color: #633CFF;
+  border: 1px solid #633cff;
+}
+
+.share-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 159.5px;
+  height: 46px;
+  padding: 11px 27px 11px 27px;
+  border-radius: 8px;
+  gap: 8px;
+  background: #633cff;
+font-family: InstrumentSans;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #fafafa;
+}
