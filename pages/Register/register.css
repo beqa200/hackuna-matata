@@ -1,288 +1,169 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Instrument Sans, sans-serif;
-    
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Instrument Sans, sans-serif;
+}
 
 body {
-    background-color: #FAFAFA;
-    
-   
+  background-color: #fafafa;
+  margin-bottom: 100px;
 }
 
 /*  --------------------Devlinks logo---------------------- */
 
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
-header {
-    width: 182.5px;
-    height: 40px;
-    margin: 0 auto;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Instrument Sans, sans-serif;
 }
 
-
-
-/*---- form basic details and H-s-------*/
-
-.login-box {
-    width: 476px;
-    height: 618px;
-    border-radius: 12px;
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #ffffff;
-    text-align: left;
-      
+body {
+  background-color: #fafafa;
 }
 
+/*  --------------------Devlinks logo---------------------- */
 
-label {
-    display: block;
-    margin: 0.5rem 0;
+.logo {
+  margin-left: 32px;
+  margin-top: 32px;
 }
 
-
-h1, h2 {
-    margin-left: 10%;
-    margin-top: 5%;
+.big-cont {
+  width: 311px;
+  height: 550px;
+  gap: 40px;
+  margin-top: 64px;
+  margin-left: 35.33px;
 }
 
-
-
-h1 {
-    width:396px;
-    height: 48px;
-    color:#333333;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 48px;
-
+.register-cont {
+  width: 311px;
+  height: 68px;
+  gap: 8px;
+  margin-bottom: 40px;
 }
 
-
-h2 {
-   width:396px;
-   height: 24px;
-   color:#333333;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 24px;
-   position: relative;
-   bottom: 70px;
-
+.register {
+  width: 311px;
+  height: 36px;
+  font-family: Instrument Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
+.register-txt {
+  width: 311px;
+  height: 24px;
 
-/*  ---------------Email-------------------------- */
-
-.Email-Address {
-    font-size: 12px;   
-    margin-bottom: 10px;
+  font-family: Instrument Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #737373;
 }
 
-
-
-.email {
-    width: 396px;
-    height:48px;
-    border-radius:8px;
-    border-color: #D9D9D9;
-    margin-left:35px;
-    background-image: url(../../assets/images/icon-email.svg);
-    background-repeat: no-repeat;
-    background-position: 10px;
-    padding-left: 35px;
-
+.register-conts {
+  width: 311px;
+  height: 442px;
+  gap: 24px;
 }
 
-
-
-.email:focus {
-    
-    box-shadow: 0px 0px 20px 20px #633cff; 
-    opacity: 15%;
-    border-color: #633CFF;
-    transition: 1s;
-
-}
-
-
-.email::placeholder {
-    position: absolute;
-    left: 35px;
-    opacity: 50%;
-}
-
-
-
-.email-error {
-    display: none;
-}
-
-.email-div, .create-password-div, .confirm-password-div {
-    position: relative;
-    bottom: 80px;
-    left: 10px;
-}
-
-
-
-/*  ---------Create Password---------------------------------- */
-
-.Password {
-    font-size: 12px;
-    margin-bottom: 10px;
-}
-
-.password {
-    width: 396px;
-    height:48px;
-    border-radius:8px;
-    border-color: #D9D9D9;
-    margin-left: 35px;
-    background-image: url(../../assets/images/icon-password.svg);
-    background-repeat: no-repeat;
-    background-position: 10px;
-    padding-left: 35px;
-    
-}
-
-
-
-.password:focus {
-    box-shadow: 0px 0px 20px 20px #633cff; 
-    opacity: 15%;
-    transition: 1s;
-    
-}
-
-
-.password::placeholder {
-    position: absolute;
-    left: 35px;
-    opacity: 50%;
-}
-
-.password-error {
-    display: none;
-}
-
-
-/* confirm-password ------- */
-
+.email-cont,
+.password-cont,
 .confirm-password {
-    width: 396px;
-    height:48px;
-    border-radius:8px;
-    border-color: #D9D9D9;
-    margin-left: 35px;
-    position: relative;
-    background-image: url(../../assets/images/icon-password.svg);
-    background-repeat: no-repeat;
-    background-position: 10px;
-    padding-left: 35px;
-
+  width: 311px;
+  height: 70px;
+  gap: 4px;
+  margin-bottom: 24px;
 }
 
-
-.confirm-password:focus {
-    box-shadow: 0px 0px 20px 20px #633cff; 
-    opacity: 15%;
-    transition: 1s;
-    
+.input-txt {
+  width: 396px;
+  height: 18px;
+  margin-bottom: 4px;
+  font-family: Instrument Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
 }
 
-
-.confirm-password::placeholder {
-    position: absolute;
-    left: 35px;
-    opacity: 50%;
+.input {
+  width: 311px;
+  height: 48px;
+  padding: 12px 16px 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;
+  gap: 12px;
 }
 
-.password-error {
-    display: none;
-}
-
-
-/*  ----labels  */
-
-label {
-    margin-left: 35px;
-    font-size: 12px;
-}
-
-
-
-/*  ----Button------------------------------------ */
-
-.login-button {
-    display: block;
-    text-align: center;
-    padding: 10px;
-    width: 396px;
-    height: 46px;
-    border-radius: 8px;
-    background-color: #633cff;
-    margin-left: 10%;
-    position: relative;
-    bottom: 35px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height:24px;
-    color: white;
-    border: none;
-    text-decoration: none;
-    
-}
-
-.login-button:hover {
-    background-color: #beadff;
-    transition: 0.3s;
-    border: none;
-}
-
-
-.bottom-note {
-    width: 396px;
+.password-characters{
+    width: 311px;
     height: 18px;
+    color: #737373;
+
+    font-family: Instrument Sans;
     font-size: 12px;
+    font-weight: 400;
     line-height: 18px;
-    font-weight: 400;
-    color: gray;
-    position: relative;
-    bottom: 50px;
-    left: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 24px;
+        
 }
 
-
-
-
-/*  ---bottom link---------------------------- */
-
-
-.bottom-link {
-    color:#333333;
-    font-weight: 400;
+.login-btn {
+    width: 311px;
+    height: 46px;
+    padding: 11px 27px 11px 27px;
+    border-radius: 8px;
+    gap: 8px;
+    background: #633cff;
+    border: none;
+    font-family: Instrument Sans;
     font-size: 16px;
-    position: absolute;
-    top: 550px;
-    left: 130px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 24px;
+  }
+
+  .dont-have,
+.create-account {
+  font-family: Instrument Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  font-family: Instrument Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.dont-have {
+  color: #737373;
+}
+
+.create-account{
     
+    color:#633CFF;
+
 }
-
-
-.link-color {
-    color: #633CFF;
-    text-decoration: none;
-}
-
-.link-color:hover {
-    color: #a28cfa;
-}
-
-
