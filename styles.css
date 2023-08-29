@@ -69,11 +69,10 @@ body {
   margin-bottom: 24px;
 }
 
-.input-box1{
-    width: 311px;
-    height: 70px;
-    margin-bottom: 24px;
-
+.input-box1 {
+  width: 311px;
+  height: 70px;
+  margin-bottom: 24px;
 }
 
 .input-txt {
@@ -88,33 +87,62 @@ body {
   text-align: left;
 }
 
-.input{
-    width:311px;
-    height: 48px;
-    padding: 12px 16px 12px 16px;
-    border-radius: 8px;
-    border: 1px;
-    gap: 12px;
-    border: 1px solid #D9D9D9
-
+.input {
+  width: 311px;
+  height: 48px;
+  padding: 12px 16px 12px 16px;
+  border-radius: 8px;
+  border: 1px;
+  gap: 12px;
+  border: 1px solid #d9d9d9;
 }
 
-.login-btn{
-    width: 311px;
-    height: 46px;
-    padding: 11px 27px 11px 27px;
-    border-radius: 8px;
-    gap: 8px;
-    background: #633CFF;
-    border: none;
-    font-family: Instrument Sans;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #FFFFFF;
-    
+.login-btn {
+  width: 311px;
+  height: 46px;
+  padding: 11px 27px 11px 27px;
+  border-radius: 8px;
+  gap: 8px;
+  background: #633cff;
+  border: none;
+  font-family: Instrument Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
 
+.login-finish {
+  width: 311px;
+  height: 48px;
+}
+
+.dont-have,
+.create-account {
+  font-family: Instrument Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  font-family: Instrument Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.dont-have {
+  color: #737373;
+}
+
+.create-account{
+    
+    color:#633CFF;
 
 }
