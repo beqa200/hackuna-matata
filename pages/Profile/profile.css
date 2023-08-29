@@ -20,6 +20,18 @@ body {
   background-color: #fafafa;
 }
 
+.save-btn-desktop {
+  display: none;
+}
+
+.save-btn-main-cont-desktop {
+  display: none;
+}
+
+.no-gap-desktop {
+  display: none;
+}
+
 .header-main-cont {
   width: 100%;
   height: 74px;
@@ -124,6 +136,18 @@ body {
   .logo-devlink-large {
     display: block;
   }
+
+  .save-btn-desktop {
+    display: none;
+  }
+
+  .save-btn-main-cont-desktop {
+    display: none;
+  }
+
+  .no-gap-desktop {
+    display: none;
+  }
 }
 
 @media (min-width: 700px) {
@@ -131,6 +155,18 @@ body {
     height: 126px;
     background: none;
     padding: 24px;
+  }
+
+  .save-btn-desktop {
+    display: none;
+  }
+
+  .save-btn-main-cont-desktop {
+    display: none;
+  }
+
+  .no-gap-desktop {
+    display: none;
   }
 
   .header-cont {
@@ -373,6 +409,10 @@ body {
   line-height: 150%;
 }
 
+.profile-phone-main {
+  display: none;
+}
+
 @media (min-width: 700px) {
   .profile-title {
     font-size: 32px;
@@ -395,7 +435,6 @@ body {
     margin-top: 5px;
   }
 
-  /* Basic Styles */
   .profile-details {
     text-align: center;
   }
@@ -405,8 +444,6 @@ body {
   .profile-text {
     margin: 15px 0;
   }
-
-  /* Media query for screen width >= 700px */
 
   .profile-details {
     display: flex;
@@ -449,9 +486,6 @@ body {
     line-height: 24px;
     font-size: 17px;
   }
-  /* Existing styles for smaller screens */
-
-  /* Media query for screens with a minimum width of 700px */
 
   .input2 {
     display: flex;
@@ -502,10 +536,162 @@ body {
 
   .line {
     width: 93.75%;
-    height: 2px;
-    color: #D9D9D9;
-
+    height: 1px;
+    background-color: #d9d9d9;
+    border: none;
   }
 
+  .no-gap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .save-btn {
+    width: 91px;
+height: 46px;
+padding: 11px 27px 11px 27px;
+border-radius: 8px;
+  }
   
+}
+
+
+@media (min-width: 1024px) {
+  .profile-phone-main {
+    display: flex;
+    width: 560px;
+    height: 834px;
+    padding: 24px;
+    border-radius: 12px;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-cont {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .desktop-text {
+    display: flex;
+    flex-direction: column;
+    width: 808px;
+    height: 739px;
+    padding: 40px;
+    gap: 40px;
+  }
+
+  .desktop-phone-pic {
+    width: 307px;
+    height: 631px;
+    border: 1px;
+  }
+
+  .profile-info {
+    width: 728px;
+    height: 208px;
+    padding: 20px;
+    border-radius: 12px;
+    gap: 12px;
+    margin-left: 0;
+  }
+
+  .profile-picture-heading {
+    margin-left: 0;
+  }
+
+  .input1 {
+    width: 432px;
+    height: 48px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 8px;
+    border: 1px;
+    gap: 12px;
+    border: 1px solid #d9d9d9;
+  }
+  .profile-text {
+    font-family: InstrumentSans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    width: 215px;
+    height: 36px;
+  }
+
+  .image-layout {
+    width: 193px;
+    height: 193px;
+    padding: 61px 38px 60px 39px;
+    border-radius: 12px;
+  }
+
+  .input-instruction {
+    font-family: InstrumentSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .profile-details {
+    width: 728px;
+    height: 233px;
+    padding: 20px;
+    border-radius: 12px;
+    gap: 12px;
+  }
+
+  .save-btn {
+    width: 91px;
+    height: 46px;
+    padding: 11px 27px 11px 27px;
+    border-radius: 8px;
+    gap: 8px;
+  }
+
+  .no-gap {
+    display: none;
+  }
+
+  .no-gap-desktop {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 125px;
+  }
+
+  .line-desktop {
+    display: flex;
+    background-color: #d9d9d9;
+  }
+
+  .save-btn-main-cont-desktop {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .save-btn-desktop {
+    display: flex;
+    align-items: center;
+    width: 91px;
+    height: 46px;
+    padding: 11px 27px 11px 27px;
+    border-radius: 8px;
+    gap: 8px;
+    border: 0;
+    background-color: #633cff;
+    color: #fafafa;
+    font-family: InstrumentSans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
 }
