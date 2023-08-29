@@ -386,15 +386,11 @@ body {
   height: 1px;
 }
 
-
-
 .no-gap {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-
 
 .profile-phone-main {
   display: none;
@@ -414,6 +410,18 @@ body {
 
 .profile-phone-main {
   display: none;
+}
+
+.links-cont-profile1:hover {
+  cursor: pointer;
+}
+
+.links-cont-profile1:hover .link-img-header {
+  filter: invert(46%) sepia(89%) saturate(7151%) hue-rotate(247deg) brightness(99%) contrast(105%);
+}
+
+.links-cont-profile1:hover .link-value {
+  color: #633CFF;
 }
 
 @media (min-width: 700px) {
@@ -535,19 +543,11 @@ body {
     color: #737373;
   }
 
-
   .line {
     width: 93.75%;
     height: 1px;
     background-color: #d9d9d9;
     border: none;
-  }
-
-
-  .no-gap{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
   }
 
 }
@@ -586,7 +586,6 @@ body {
   }
 
   .profile-info {
-
     width: 728px;
     height: 208px;
     padding: 20px;
@@ -645,7 +644,6 @@ body {
     gap: 12px;
   }
 
-
   .no-gap {
     display: none;
   }
@@ -685,4 +683,5 @@ body {
     letter-spacing: 0em;
     text-align: left;
   }
-
+  
+}
