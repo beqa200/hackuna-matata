@@ -356,6 +356,10 @@ body {
         width: 100%;
     }
 
+    .line-preview {
+        margin-top: 101px;
+    }
+
     .save-btn-main-cont {
         height: 94px;
     }
