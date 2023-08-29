@@ -107,9 +107,9 @@ body {
   font-weight: 600;
   line-height: 150%;
 }
+
 .profile__icon-header {
-  filter: invert(46%) sepia(89%) saturate(7151%) hue-rotate(247deg)
-    brightness(99%) contrast(105%);
+  filter: invert(46%) sepia(89%) saturate(7151%) hue-rotate(247deg) brightness(99%) contrast(105%);
 }
 
 /*------------------------ Header ------------------------*/
@@ -166,11 +166,12 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 150%;
+  }
 
-    .profile-title {
+  /* .profile-title {
       font-size: 100px !important;
     }
-  }
+  } */
 
   .link-value {
     display: block;
@@ -200,8 +201,7 @@ body {
   }
 
   .links-cont-profile:hover .profile__icon-header {
-    filter: invert(46%) sepia(89%) saturate(7151%) hue-rotate(247deg)
-      brightness(99%) contrast(105%);
+    filter: invert(46%) sepia(89%) saturate(7151%) hue-rotate(247deg) brightness(99%) contrast(105%);
   }
 
   .eye__icon-cont:hover {
@@ -231,12 +231,14 @@ body {
   background-color: #fff;
   border-radius: 12px;
 }
+
 .main-cont {
   display: flex;
   padding: 24px;
   flex-direction: column;
   gap: 40px;
 }
+
 .profile-title {
   font-family: instumentBold;
   font-size: 24px;
@@ -245,6 +247,7 @@ body {
   letter-spacing: 0em;
   text-align: left;
 }
+
 .details-instructions {
   font-family: InstrumentSans;
   font-size: 16px;
@@ -254,6 +257,7 @@ body {
   text-align: left;
   color: #737373;
 }
+
 .profile-details {
   display: flex;
   padding: 20px;
@@ -262,6 +266,7 @@ body {
   background-color: #fafafa;
   border-radius: 12px;
 }
+
 .profile-info {
   display: flex;
   flex-direction: column;
@@ -414,18 +419,22 @@ body {
     text-align: left;
     align-items: center;
   }
+
   .profile-pircute-main-cont {
     flex: 1;
   }
+
   .image-layout,
   .profile-text {
     flex: 1;
     text-align: center;
   }
+
   .profile-pircute-main-cont,
   .image-layout {
     margin-right: 20px;
   }
+
   .image-layout {
     display: flex;
     flex: 1;
@@ -449,6 +458,7 @@ body {
     line-height: 24px;
     font-size: 17px;
   }
+
   /* Existing styles for smaller screens */
 
   /* Media query for screens with a minimum width of 700px */
@@ -507,5 +517,5 @@ body {
 
   }
 
-  
+
 }
