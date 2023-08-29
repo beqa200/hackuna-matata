@@ -1,12 +1,3 @@
-@font-face {
-  font-family: instumentBold;
-  src: url(/assets/fonts/static/InstrumentSans-Bold.ttf);
-}
-
-@font-face {
-  font-family: InstrumentSans;
-  src: url(/assets/fonts/static/InstrumentSans-Regular.ttf);
-}
 
 /*------------------------ Header ------------------------*/
 
@@ -88,7 +79,7 @@ body {
   display: none;
   margin-left: 8px;
   color: #737373;
-  font-family: instumentBold;
+  font-family: 'Instrument Sans', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -113,7 +104,7 @@ body {
   display: none;
   color: #633cff;
 
-  font-family: instumentBold;
+  font-family: 'Instrument Sans', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -123,6 +114,15 @@ body {
 .profile__icon-header {
   filter: invert(46%) sepia(89%) saturate(7151%) hue-rotate(247deg) brightness(99%) contrast(105%);
 }
+
+.links-cont-profile1 {
+  background: none;
+}
+
+.link-img-header {
+  filter: none;
+}
+
 
 /*------------------------ Header ------------------------*/
 
@@ -197,7 +197,7 @@ body {
     margin-left: 8px;
     color: #633cff;
 
-    font-family: instumentBold;
+    font-family: 'Instrument Sans', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -239,6 +239,18 @@ body {
     filter: invert(46%) sepia(89%) saturate(7151%) hue-rotate(247deg) brightness(99%) contrast(105%);
   }
 
+  .links-cont-profile1:hover {
+    cursor: pointer;
+  }
+
+  .links-cont-profile1:hover .link-value {
+    color: #633cff;
+  }
+
+  .links-cont-profile1:hover .link-img-header {
+    filter: invert(46%) sepia(89%) saturate(7151%) hue-rotate(247deg) brightness(99%) contrast(105%);
+  }
+
   .eye__icon-cont:hover {
     cursor: pointer;
     background-color: #efebff;
@@ -260,6 +272,7 @@ body {
 /*----------------------- Profile Details --------------------------*/
 
 .profile-main-cont {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -267,14 +280,8 @@ body {
   border-radius: 12px;
 }
 
-/* .main-cont {
-  display: flex;
-  padding: 24px;
-  flex-direction: column;
-  gap: 40px;
-} */
 .profile-title {
-  font-family: instumentBold;
+  font-family: 'Instrument Sans', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
@@ -284,7 +291,7 @@ body {
 
 .details-instructions {
   margin-top: 8px;
-  font-family: InstrumentSans;
+  font-family: 'Instrument Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -342,7 +349,7 @@ body {
 }
 
 .upload-txt {
-  font-family: InstrumentSans;
+  font-family: 'Instrument Sans', sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -352,7 +359,7 @@ body {
 }
 
 .profile-picture-heading {
-  font-family: InstrumentSans;
+  font-family: 'Instrument Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -362,7 +369,7 @@ body {
 }
 
 .profile-text {
-  font-family: InstrumentSans;
+  font-family: 'Instrument Sans', sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
@@ -372,18 +379,13 @@ body {
 }
 
 .input-instruction {
-  font-family: InstrumentSans;
+  font-family: 'Instrument Sans', sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
   letter-spacing: 0em;
   text-align: left;
   color: #333333;
-}
-
-.line {
-  width: 343px;
-  height: 1px;
 }
 
 .no-gap {
@@ -394,34 +396,6 @@ body {
 
 .profile-phone-main {
   display: none;
-}
-
-.links-cont-profile1:hover {
-  cursor: pointer;
-}
-
-.links-cont-profile1:hover .link-img-header {
-  filter: invert(46%) sepia(89%) saturate(7151%) hue-rotate(247deg) brightness(99%) contrast(105%);
-}
-
-.links-cont-profile1:hover .link-value {
-  color: #633CFF;
-}
-
-.profile-phone-main {
-  display: none;
-}
-
-.links-cont-profile1:hover {
-  cursor: pointer;
-}
-
-.links-cont-profile1:hover .link-img-header {
-  filter: invert(46%) sepia(89%) saturate(7151%) hue-rotate(247deg) brightness(99%) contrast(105%);
-}
-
-.links-cont-profile1:hover .link-value {
-  color: #633CFF;
 }
 
 @media (min-width: 700px) {
@@ -534,7 +508,7 @@ body {
   }
 
   .input-instruction {
-    font-family: InstrumentSans;
+    font-family: 'Instrument Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -543,17 +517,11 @@ body {
     color: #737373;
   }
 
-  .line {
-    width: 93.75%;
-    height: 1px;
-    background-color: #d9d9d9;
-    border: none;
-  }
-
 }
 
 
 @media (min-width: 1024px) {
+
   .profile-phone-main {
     display: flex;
     width: 560px;
@@ -586,7 +554,7 @@ body {
   }
 
   .profile-info {
-    width: 728px;
+    width: 100%;
     height: 208px;
     padding: 20px;
     border-radius: 12px;
@@ -609,7 +577,7 @@ body {
   }
 
   .profile-text {
-    font-family: InstrumentSans;
+    font-family: 'Instrument Sans', sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
@@ -628,7 +596,7 @@ body {
   }
 
   .input-instruction {
-    font-family: InstrumentSans;
+    font-family: 'Instrument Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -676,7 +644,7 @@ body {
     border: 0;
     background-color: #633cff;
     color: #fafafa;
-    font-family: InstrumentSans;
+    font-family: 'Instrument Sans', sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
