@@ -9,8 +9,9 @@ body {
 }
 
 .main-cont {
-    width: 100%;
+    max-width: 1440px;
     padding: 0 16px 16px 16px;
+    margin: 0 auto;
 }
 
 .links-main-cont {
@@ -326,8 +327,6 @@ body {
     }
 
     .links-main-cont {
-        margin-bottom: 0;
-        margin-right: 0;
         width: 808px;
         height: 834px;
         padding: 40px 40px 53px 40px;
