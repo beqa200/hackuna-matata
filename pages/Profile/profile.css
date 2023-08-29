@@ -540,7 +540,22 @@ body {
     background-color: #d9d9d9;
     border: none;
   }
+
+  .no-gap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .save-btn {
+    width: 91px;
+height: 46px;
+padding: 11px 27px 11px 27px;
+border-radius: 8px;
+  }
+  
 }
+
 
 @media (min-width: 1024px) {
   .profile-phone-main {
