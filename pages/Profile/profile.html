@@ -4,8 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../AddLink/addLink.css">
   <link rel="stylesheet" href="profile.css" />
-  <title>Document</title>
+
+
+  <title>Profile</title>
 </head>
 
 <body>
@@ -15,7 +18,7 @@
       <img src="../../assets/images/logo-devlinks-large.svg" alt="Logo" class="logo-devlink-large" />
 
       <div class="links-profile-cont">
-        <div class="links-cont">
+        <div class="links-cont links-cont-profile1">
           <img src="../../assets/images/icon-links-header.svg" alt="Link-Icon" class="link-img-header" />
           <p class="link-value">Links</p>
         </div>
@@ -39,23 +42,36 @@
   <div class="main-cont">
 
 
-    <div class="profile-main-cont">
-      <h1 class="profile-title">Profile Details</h1>
-      <p class="details-instructions">Add your details to create a personal touch to your profile</p>
+    <div class="links-phone-main">
+
+      <img src="../../assets/images/illustration-phone-mockup.svg" alt="" class="phone-img">
 
     </div>
-    <div class="profile-center">
-      <div class="profile-details">
-        <div class="profile-pircute-main-cont">
-          <p class="profile-picture-heading">Profile picture</p>
+
+    <div class="links-main-cont">
+
+
+
+      <div class="profile-main-cont">
+        <h1 class="profile-title">Profile Details</h1>
+        <p class="details-instructions">Add your details to create a personal touch to your profile</p>
+
+      </div>
+      <div class="profile-center">
+        <div class="profile-details">
+          <div class="profile-pircute-main-cont">
+            <p class="profile-picture-heading">Profile picture</p>
+          </div>
+          <div class="image-layout">
+            <img src="/assets/images/icon-upload-image.svg" alt="" class="upload-img" />
+            <p class="upload-txt">+ Upload Image</p>
+          </div>
+          <p class="profile-text">
+            Image bust be below 1024x1024px. Use PNG or JPG format.
+          </p>
+
+
         </div>
-        <div class="image-layout">
-          <img src="/assets/images/icon-upload-image.svg" alt="" class="upload-img" />
-          <p class="upload-txt">+ Upload Image</p>
-        </div>
-        <p class="profile-text">
-          Image bust be below 1024x1024px. Use PNG or JPG format.
-        </p>
 
       </div>
 
@@ -73,23 +89,18 @@
 
         <div class="input2">
           <p class="input-instruction">Email</p>
-          <input type="text" class="input1" id="Email name=" email">
+          <input type="text" class="input1" id="Email" name="email">
         </div>
+
       </div>
 
-    </div>
+      <hr class="line line-preview">
 
+      <div class="save-btn-main-cont">
 
+        <button class="save-btn">Save</button>
 
-  </div>
-
-
-  <div class="no-gap">
-    <hr class="line">
-
-    <div class="save-btn-main-cont">
-
-      <button class="save-btn">Save</button>
+      </div>
 
     </div>
 
