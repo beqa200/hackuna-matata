@@ -311,6 +311,8 @@ body {
 @media (min-width: 1440px) {
 
     .main-cont {
+        max-width: 1440px;
+        margin: 0 auto;
         padding-bottom: 24px;
         display: flex;
     }
@@ -327,7 +329,6 @@ body {
 
     .links-main-cont {
         margin-bottom: 0;
-        margin-right: 0;
         width: 808px;
         height: 834px;
         padding: 40px 40px 53px 40px;

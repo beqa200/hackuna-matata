@@ -104,6 +104,9 @@
   line-height: 150%;
 }
 
+.profile-link {
+  text-decoration: none;
+}
 /*------------------------ Header ------------------------*/
 
 
