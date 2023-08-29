@@ -386,12 +386,7 @@ body {
   height: 1px;
 }
 
-/* .save-btn-main-cont {
-  width: 343px;
-  height: 78px;
-  padding: 16px;
-  gap: 8px;
-} */
+
 
 .no-gap {
   display: flex;
@@ -399,19 +394,7 @@ body {
   align-items: center;
 }
 
-/* .save-btn {
-  width: 100%;
-  height: 46px;
-  border: none;
-  border-radius: 8px;
-  background: #633cff;
-  color: #fff;
-  font-family: instumentBold;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 150%;
-} */
+
 
 .profile-phone-main {
   display: none;
@@ -427,6 +410,10 @@ body {
 
 .links-cont-profile1:hover .link-value {
   color: #633CFF;
+}
+
+.profile-phone-main {
+  display: none;
 }
 
 @media (min-width: 700px) {
@@ -548,9 +535,6 @@ body {
     color: #737373;
   }
 
-  /* .main-cont {
-    position: relative;
-  } */
 
   .line {
     width: 93.75%;
@@ -559,18 +543,12 @@ body {
     border: none;
   }
 
-  .no-gap {
+
+  .no-gap{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
   }
-
-  /* .save-btn {
-    width: 91px;
-height: 46px;
-padding: 11px 27px 11px 27px;
-border-radius: 8px;
-  } */
 
 }
 
@@ -608,6 +586,8 @@ border-radius: 8px;
   }
 
   .profile-info {
+
+    width: 728px;
     height: 208px;
     padding: 20px;
     border-radius: 12px;
@@ -665,13 +645,6 @@ border-radius: 8px;
     gap: 12px;
   }
 
-  /* .save-btn {
-    width: 91px;
-    height: 46px;
-    padding: 11px 27px 11px 27px;
-    border-radius: 8px;
-    gap: 8px;
-  } */
 
   .no-gap {
     display: none;
@@ -712,4 +685,4 @@ border-radius: 8px;
     letter-spacing: 0em;
     text-align: left;
   }
-}
+

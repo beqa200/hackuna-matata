@@ -185,6 +185,9 @@ label {
 /*  ----Button------------------------------------ */
 
 .login-button {
+    display: block;
+    text-align: center;
+    padding: 10px;
     width: 396px;
     height: 46px;
     border-radius: 8px;
@@ -195,7 +198,9 @@ label {
     font-weight: 600;
     font-size: 16px;
     line-height:24px;
-    color: white;
+    border:none; 
+    text-decoration: none;
+    color:white;
     
     
 }
@@ -221,13 +226,16 @@ label {
 }
 
 
-a {
+.link-color {
     color: #633CFF;
     text-decoration: none;
 }
 
-a:hover {
+.link-color:hover {
     color: #a28cfa;
 }
+
+
+
 
 

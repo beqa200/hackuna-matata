@@ -1,0 +1,193 @@
+@font-face {
+  font-family: instumentBold;
+  src: url(/assets/fonts/static/InstrumentSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: InstrumentSans;
+  src: url(/assets/fonts/static/InstrumentSans-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  padding-bottom: 150px;
+}
+
+.preview-header {
+  display: flex;
+  justify-content: center;
+  height: 78px;
+  padding: 16px 16px 16px 24px;
+  border-radius: 12px;
+  gap: 8px;
+}
+
+.editor-share {
+  width: 335px;
+  height: 46px;
+  gap: 16px;
+  display: flex;
+}
+
+.editor-p {
+  font-family: InstrumentSans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 159.5px;
+  height: 46px;
+  padding: 11px 27px 11px 27px;
+  border-radius: 8px;
+  border: 1px;
+  gap: 8px;
+  background: #fafafa;
+  color: #633cff;
+  border: 1px solid #633cff;
+}
+
+.share-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 159.5px;
+  height: 46px;
+  padding: 11px 27px 11px 27px;
+  border-radius: 8px;
+  gap: 8px;
+  background: #633cff;
+  font-family: InstrumentSans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fafafa;
+}
+
+.preview-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15%;
+  gap: 25px;
+}
+
+.preview-btn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 15%;
+  gap: 20px;
+}
+
+.btn {
+  background-color: none;
+  border: none;
+}
+
+.preview-pic {
+  border: 4px solid #633cff;
+  border-radius: 50%;
+  width: 104px;
+  height: 104px;
+}
+
+.name-email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-lastname {
+  font-family: instumentBold;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.email-txt {
+  font-family: InstrumentSans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #737373;
+}
+
+.profile-and-buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+@media (min-width: 700px) {
+    
+
+  .blue-thing {
+    width: 100%;
+    height: 357px;
+    border-radius: 0px 0px 32px 32px;
+    background: #633cff;
+  }
+
+
+  .preview-header {
+    justify-content: space-between;  /* Aligns children at the start and the end */
+    
+  }
+
+  .editor-share {
+    justify-content: space-between;  
+  }
+
+  .editor-p, .share-p {
+    position: absolute;  
+    top: 0;  
+  }
+
+  .editor-p {
+    left: 0;  
+    margin: 24px;
+  }
+
+  .share-p {
+    right: 0;  
+    margin: 24px;
+  }
+
+  .profile-and-buttons{
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 349px;
+    height: 569px;
+    top: 228px;
+    left: 210px;
+    padding: 48px 56px 48px 56px;
+    border-radius: 24px;
+    gap: 8px;
+    display: flex;
+    
+}
+
+  }
+
+
