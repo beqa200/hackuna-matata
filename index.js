@@ -1,29 +1,28 @@
 function validateForm() {
-    var email = document.forms["myForm"]["email"].value;
-    var password = document.forms["myForm"]["password"].value;
+    var email = document.forms["indexVal"]["email"].value;
+    var password = document.forms["indexVal"]["password"].value;
     var valid = true; 
-    
+
     if (email == "") {
-        document.forms["myForm"]["email"].classList.add("error");
-        document.getElementById("email-label").classList.add("error-label");
-        document.forms["myForm"]["email"].placeholder = "Can't be empty";
+        document.forms["indexVal"]["email"].classList.add("error");
+        document.getElementById("email-p").classList.add("error-label");
+        document.forms["indexVal"]["email"].placeholder = "Can't be empty";
         valid = false;
     } else {
-        document.forms["myForm"]["email"].classList.remove("error");
-        document.getElementById("email-label").classList.remove("error-label");
-        document.forms["myForm"]["email"].placeholder = "Email";
+        document.forms["indexVal"]["email"].classList.remove("error");
+        document.getElementById("email-p").classList.remove("error-label");
+        document.forms["indexVal"]["email"].placeholder = "Email address";
     }
 
     if (password == "") {
-        document.forms["myForm"]["password"].classList.add("error");
-        document.getElementById("password-label").classList.add("error-label");
-        document.forms["myForm"]["password"].placeholder = "Please check again";
+        document.forms["indexVal"]["password"].classList.add("error");
+        document.getElementById("password-p").classList.add("error-label");
+        document.forms["indexVal"]["password"].placeholder = "Please check again";
         valid = false;
     } else {
-        document.forms["myForm"]["password"].classList.remove("error");
-        document.getElementById("password-label").classList.remove("error-label");
-        document.forms["myForm"]["password"].placeholder = "Password";
+        document.forms["indexVal"]["password"].classList.remove("error");
+        document.getElementById("password-p").classList.remove("error-label");
+        document.forms["indexVal"]["password"].placeholder = "Password";
     }
 
     return valid;
-}
