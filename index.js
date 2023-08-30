@@ -1,28 +1,38 @@
-function validateForm() {
-    var email = document.getElementById("email").value;
-    var password = document.getElementById("password").value;
-    var valid = true; 
+let button = document.querySelector(".login-btn");
 
+let email = document.querySelector("#email");
+let password = document.querySelector("#pasSword");
 
-    var emailError = "";
-    var passwordError = "";
+let emailCont = document.querySelector("#emailCont");
+let passwordCont = document.querySelector("#passwordCont");
 
-    if (email == "") {
-        emailError = "Can't be empty";
-        valid = false;
-
-    }
-
-    if (password === "") {
-        passwordError = "Please check again"
-        valid = false;
-    }
-     
-
-    document.getElementById("email-error").textContent = emailError;
-    document.getElementById("password-error").textContent = passwordError;
+let passwordError = document.querySelector("#passwordError")
 
 
 
-    return valid;
+button.addEventListener('click', function() {
+
+    if (email.value === "") {
+        console.log("email Error")
+        emailCont.style.border = '1px solid red';
+    } 
+   else {
+    emailCont.classList.remove('error');
 }
+
+    if (pasSword.value === "") {
+        console.log ("pass Error")
+        passwordCont.style.border = '1px solid red';
+    } 
+    else {
+        passwordCont.classList.remove('error');
+
+    }
+    if (confirmPassword.value === "") {
+        confirmPasswordCont.classList.add('error');
+    } else {
+        confirmPasswordCont.classList.remove('error');
+    }
+
+});
+   
