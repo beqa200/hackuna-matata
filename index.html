@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <title>Login</title>
-  <script src="index.js"></script>
+  <script defer src="index.js"></script>
 </head>
 
 <body>
@@ -28,31 +28,31 @@
 
         <div class="input-box">
 
-          <p class="input-txt">Email address</p>
+          <p  id="addressE" class="input-txt">Email address</p>
 
           <div id="emailCont" class="input-email-cont">
 
             <img src="./assets/images/icon-email.svg" alt="email-icon" class="email-icon">
 
             <input  id="email"   class="input" type="email" placeholder="e.g. alex@email.com" />
-
+            <p class="email-p"></p>
           </div>
 
         </div>
 
         <div class="input-box1">
-          <p  class="input-txt">Password</p>
+          <p id="passWord" class="input-txt">Password</p>
           <div id="passwordCont" class="input-email-cont">
 
             <img src="./assets/images/icon-password.svg" alt="email-icon" class="email-icon">
 
             <input id="pasSword" class="input" type="password" placeholder="Enter your password" />
-
+            <p  id="password-p" class="email-p"></p>
           </div>
         </div>
-        <a href="./pages/AddLink/addLink.html">
-          <button class="login-btn">Login</button>
-        </a>
+        
+        <div id="login"  class="login-btn">Login</div>
+       
         <div class="login-finish">
           <p class="dont-have">Don't have an account?</p>
           <a href="./pages/Register/register.html" class="create-link">
