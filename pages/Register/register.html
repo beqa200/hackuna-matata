@@ -11,7 +11,7 @@
 
 <body>
   <div class="main-cont">
-    <img src="/assets/images/logo-devlinks-large.svg" alt="" class="logo" />
+    <img src="/assets/images/logo-devlinks-large.svg" alt="Logo" class="logo" />
 
     <div class="big-cont">
       <div class="register-cont">
@@ -24,57 +24,72 @@
       </div>
 
       <div class="register-conts">
-        <div class="email-cont">
-          <p class="input-txt">Email address</p>
+        <form id="registrationForm">
+          <div class="email-cont">
+            <p class="input-txt">Email address</p>
 
-          <div class="input-email-cont">
+            <div id="emailCont" class="input-email-cont">
 
-            <img src="../../assets/images/icon-email.svg" alt="email-icon" class="email-icon">
+              <img src="../../assets/images/icon-email.svg" alt="email-icon" class="email-icon">
 
-            <input class="input" type="email" placeholder="e.g. alex@email.com" />
+              <input id="email" class="input" type="email" placeholder="e.g. alex@email.com" />
 
-          </div>
+              <p id="emailError" class="error-message">
 
-        </div>
+              </p>
 
-        <div class="password-cont">
-          <p class="input-txt">Create password</p>
-
-          <div class="input-email-cont">
-
-            <img src="../../assets/images/icon-password.svg" alt="email-icon" class="email-icon">
-
-            <input class="input" type="password" placeholder="At least .8 characters" />
+            </div>
 
           </div>
 
-        </div>
-        <div class="confirm-password">
-          <p class="input-txt">Confirm password</p>
-          <div class="input-email-cont">
+          <div class="password-cont">
+            <p class="input-txt">Create password</p>
 
-            <img src="../../assets/images/icon-password.svg" alt="email-icon" class="email-icon">
+            <div id="passwordCont" class="input-email-cont">
 
-            <input class="input" type="password" placeholder="At least 8 characters" />
+              <img src="../../assets/images/icon-password.svg" alt="email-icon" class="email-icon" id="password">
+
+              <input id="pasSword" class="input" type="password" placeholder="At least .8 characters" />
+
+              <p id="passwordError" class="error-message">
+
+              </p>
+
+            </div>
 
           </div>
-        </div>
+          <div class="confirm-password">
+            <p class="input-txt">Confirm password</p>
+            <div id="confirmPasswordCont" class="input-email-cont">
 
-        <p class="password-characters">Password must contain at least 8 characters</p>
+              <img src="../../assets/images/icon-password.svg" alt="password-icon" class="email-icon">
 
-        <a href="../AddLink/addLink.html">
-          <button class="login-btn">Create New Account</button>
-        </a>
-        <div class="login-finish">
-          <p class="dont-have">Already have an account?</p>
-          <a href="../../index.html" class="login-link">
-            <p class="create-account">Login</p>
-          </a>
-        </div>
+              <input id="confirmPassword" class="input" type="password" placeholder="Confirm password"/>
+
+              <p id="confirmPasswordError" class="error-message"> </p>
+
+            </div>
+          </div>
+
+          <p class="password-characters">Password must contain at least 8 characters</p>
+
+            <div class="login-btn">Create New Account</div>
+
+          <div class="login-finish">
+            <p class="dont-have">Already have an account?</p>
+            <a href="../../index.html" class="login-link">
+              <p class="create-account">Login</p>
+            </a>
+          </div>
+
+        </form>
       </div>
 
     </div>
   </div>
+
+  <script src="../Register/register.js"></script>
+
 </body>
 
 </html>

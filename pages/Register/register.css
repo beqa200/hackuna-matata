@@ -195,6 +195,20 @@ body {
 
 }
 
+.error {
+  border: 1px solid #FF3939;
+}
+
+.error-message {
+  width: 190px;
+  color: #FF3939;
+  text-align: right;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
 @media (min-width: 768px) {
   body {
     display: flex;
