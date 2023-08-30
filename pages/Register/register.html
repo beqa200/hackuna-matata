@@ -1,65 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="register.css" />
-    <link rel="stylesheet" href="../../common.css" />
-    <title>Register</title>
-  </head>
 
-  <body>
-    <div class="main-cont">
-      <img src="/assets/images/logo-devlinks-large.svg" alt="" class="logo" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="register.css" />
+  <link rel="stylesheet" href="../../common.css" />
+  <title>Register</title>
+</head>
 
-      <div class="big-cont">
-        <div class="register-cont">
-          <div class="register-details">
-            <p class="register">Create account</p>
-            <p class="register-txt">
-              Let's get you started sharing your links!
-            </p>
-          </div>
+<body>
+  <div class="main-cont">
+    <img src="/assets/images/logo-devlinks-large.svg" alt="" class="logo" />
+
+    <div class="big-cont">
+      <div class="register-cont">
+        <div class="register-details">
+          <p class="register">Create account</p>
+          <p class="register-txt">
+            Let's get you started sharing your links!
+          </p>
         </div>
-
-        <div class="register-conts">
-          <div class="email-cont">
-            <p class="input-txt">Email address</p>
-            <input
-              class="input"
-              type="email"
-              placeholder="e.g. alex@email.com"
-            />
-          </div>
-          <div class="password-cont">
-            <p class="input-txt">Create password</p>
-            <input
-              class="input"
-              type="password"
-              placeholder="At least .8 characters"
-            />
-        </div>
-            <div class="confirm-password">
-                <p class="input-txt">Confirm password</p>
-                <input
-              class="input"
-              type="password"
-              placeholder="At least .8 characters"
-            />
-            </div>
-
-            <p class="password-characters">Password must contain at least 8 characters</p>
-
-            <a href="../AddLink/addLink.html">
-                <button class="login-btn">Create New Account</button>
-            </a>
-            <div class="login-finish">
-                <p class="dont-have">Already have an account?</p>
-                <p class="create-account">Login</p>
-            </div>
-        </div>
-        
       </div>
+
+      <div class="register-conts">
+        <div class="email-cont">
+          <p class="input-txt">Email address</p>
+
+          <div class="input-email-cont">
+
+            <img src="../../assets/images/icon-email.svg" alt="email-icon" class="email-icon">
+
+            <input class="input" type="email" placeholder="e.g. alex@email.com" />
+
+          </div>
+
+        </div>
+
+        <div class="password-cont">
+          <p class="input-txt">Create password</p>
+
+          <div class="input-email-cont">
+
+            <img src="../../assets/images/icon-password.svg" alt="email-icon" class="email-icon">
+
+            <input class="input" type="password" placeholder="At least .8 characters" />
+
+          </div>
+
+        </div>
+        <div class="confirm-password">
+          <p class="input-txt">Confirm password</p>
+          <div class="input-email-cont">
+
+            <img src="../../assets/images/icon-password.svg" alt="email-icon" class="email-icon">
+
+            <input class="input" type="password" placeholder="At least 8 characters" />
+
+          </div>
+        </div>
+
+        <p class="password-characters">Password must contain at least 8 characters</p>
+
+        <a href="../AddLink/addLink.html">
+          <button class="login-btn">Create New Account</button>
+        </a>
+        <div class="login-finish">
+          <p class="dont-have">Already have an account?</p>
+          <a href="../../index.html" class="login-link">
+            <p class="create-account">Login</p>
+          </a>
+        </div>
+      </div>
+
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
