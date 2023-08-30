@@ -1,6 +1,6 @@
 function validateForm() {
-    var email = document.forms["indexVal"]["email"].value;
-    var password = document.forms["indexVal"]["password"].value;
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
     var valid = true; 
 
 
@@ -9,18 +9,20 @@ function validateForm() {
 
     if (email == "") {
         emailError = "Can't be empty";
-        document.forms["indexVal"]["email"].placeholder = "Can't be empty";
         valid = false;
 
     }
 
     if (password === "") {
         passwordError = "Please check again"
-        document.forms["indexVal"]["email"].placeholder = "Please check again";
         valid = false;
     }
-
-
      
+
+    document.getElementById("email-error").textContent = emailError;
+    document.getElementById("password-error").textContent = passwordError;
+
+
+
     return valid;
 }
