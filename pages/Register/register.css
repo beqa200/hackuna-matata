@@ -173,3 +173,37 @@ body {
     color:#633CFF;
 
 }
+
+@media (min-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .main-cont {
+    width: 476px;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+  .big-cont {
+    padding: 40px;
+    border-radius: 12px;
+    margin-top: 51px;
+    background-color: white;
+    height: 100%;
+  }
+
+  .register-details{
+    margin: 0;
+  }
+}
