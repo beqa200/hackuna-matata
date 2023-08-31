@@ -32,6 +32,16 @@ button.addEventListener('click', function () {
         passwordError.innerText = "";
     }
 
+    if(email.value && pasSword.value) {
+        const users = JSON.parse(localStorage.getItem("users"));
+        users.map((item) => {
+            if(item.email == email.value && item.password == pasSword.value) {
+
+                button.setAttribute("href", "./pages/AddLink/addLink.html")
+            }
+        })
+    }
+
 });
 
 email.addEventListener('input', function () {
