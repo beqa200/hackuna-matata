@@ -1,4 +1,3 @@
-
 let button = document.querySelector(".login-btn");
 
 let email = document.querySelector("#email");
@@ -13,27 +12,40 @@ let emailError = document.querySelector("#emailError");
 let passwordError = document.querySelector("#passwordError");
 let confirmPasswordError = document.querySelector("#confirmPasswordError")
 
-button.addEventListener('click', function() {
-    
-    if (email.value === "") {
+button.addEventListener('click', function () {
+
+    if (!email.value) {
         emailCont.classList.add('error');
-        emailError.innerHTML = "Can’t be empty";
+        emailError.innerText = "Can’t be empty";
     } else {
         emailCont.classList.remove('error');
+        emailError.innerText = "";
     }
 
-    if (pasSword.value === "") {
+    if (!pasSword.value) {
         passwordCont.classList.add('error');
-        passwordError.innerHTML = "Please check again";
+        passwordError.innerText = "Please check again";
     } else {
         passwordCont.classList.remove('error');
+        passwordError.innerText = "";
     }
 
-    if (confirmPassword.value === "") {
-        confirmPasswordCont.classList.add('error');
-        confirmPasswordError.innerHTML = "gela";
-    } else {
-        confirmPasswordCont.classList.remove('error');
-    }
+    // button.setAttribute("href", "hhtps")
+
+    // if ()
 
 });
+
+email.addEventListener('input', function () {
+
+    emailCont.classList.remove('error');
+    emailError.innerText = "";
+
+})
+
+password.addEventListener('input', function () {
+
+    passwordCont.classList.remove('error');
+    passwordError.innerText = "";
+
+})

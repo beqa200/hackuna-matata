@@ -10,26 +10,42 @@ let addressE = document.querySelector("#addressE");
 let passWord = document.querySelector("#passWord");
 
 
-button.addEventListener('click', function() {
+button.addEventListener('click', function () {
 
-    if (email.value === "") {
+    if (!email.value) {
         emailCont.classList.add('error');
-        emailError.innerHTML = "Can’t be empty";
+        emailError.innerText = "Can’t be empty";
         addressE.style.color = "#FF3939";
     } else {
         emailCont.classList.remove('error');
         addressE.style.color = "#333333";
+        emailError.innerText = "";
     }
 
-    if (pasSword.value === "") {
+    if (!pasSword.value) {
         passwordCont.classList.add('error');
-        passwordError.innerHTML = "Please check again";
+        passwordError.innerText = "Please check again";
         passWord.style.color = "#FF3939";
     } else {
         passwordCont.classList.remove('error');
         passWord.style.color = "#333333";
+        passwordError.innerText = "";
     }
 
 });
 
-   
+email.addEventListener('input', function () {
+
+    emailCont.classList.remove('error');
+    addressE.style.color = "#333333";
+    emailError.innerText = "";
+
+})
+
+pasSword.addEventListener('input', function () {
+
+    passwordCont.classList.remove('error');
+    passWord.style.color = "#333333";
+    passwordError.innerText = "";
+
+})
