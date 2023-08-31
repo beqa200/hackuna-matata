@@ -1,4 +1,3 @@
-
 let button = document.querySelector(".login-btn");
 
 let email = document.querySelector("#email");
@@ -13,14 +12,14 @@ let emailError = document.querySelector("#emailError");
 let passwordError = document.querySelector("#passwordError");
 let confirmPasswordError = document.querySelector("#confirmPasswordError")
 
-button.addEventListener('click', function() {
-    
+button.addEventListener('click', function () {
+
     if (!email.value) {
         emailCont.classList.add('error');
         emailError.innerText = "Can’t be empty";
     } else {
         emailCont.classList.remove('error');
-        emailError.innerText = ""
+        emailError.innerText = "";
     }
 
     if (!pasSword.value) {
@@ -35,12 +34,18 @@ button.addEventListener('click', function() {
 
     // if ()
 
-    // if (!confirmPassword) {
-    //     confirmPasswordCont.classList.add('error');
-    //     confirmPasswordError.innerText = "gela";
-    // } else {
-    //     confirmPasswordCont.classList.remove('error');
-    //     confirmPasswordError.innerText = "";
-    // }
-
 });
+
+email.addEventListener('input', function () {
+
+    emailCont.classList.remove('error');
+    emailError.innerText = "";
+
+})
+
+password.addEventListener('input', function () {
+
+    passwordCont.classList.remove('error');
+    passwordError.innerText = "";
+
+})

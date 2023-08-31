@@ -144,6 +144,7 @@ body {
 }
 
 .login-btn {
+  display: block;
   width: 100%;
   height: 46px;
   padding: 11px 27px 11px 27px;
