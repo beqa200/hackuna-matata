@@ -15,25 +15,32 @@ let confirmPasswordError = document.querySelector("#confirmPasswordError")
 
 button.addEventListener('click', function() {
     
-    if (email.value === "") {
+    if (!email.value) {
         emailCont.classList.add('error');
-        emailError.innerHTML = "Can’t be empty";
+        emailError.innerText = "Can’t be empty";
     } else {
         emailCont.classList.remove('error');
+        emailError.innerText = ""
     }
 
-    if (pasSword.value === "") {
+    if (!pasSword.value) {
         passwordCont.classList.add('error');
-        passwordError.innerHTML = "Please check again";
+        passwordError.innerText = "Please check again";
     } else {
         passwordCont.classList.remove('error');
+        passwordError.innerText = "";
     }
 
-    if (confirmPassword.value === "") {
-        confirmPasswordCont.classList.add('error');
-        confirmPasswordError.innerHTML = "gela";
-    } else {
-        confirmPasswordCont.classList.remove('error');
-    }
+    button.setAttribute("href", "hhtps")
+
+    // if ()
+
+    // if (!confirmPassword) {
+    //     confirmPasswordCont.classList.add('error');
+    //     confirmPasswordError.innerText = "gela";
+    // } else {
+    //     confirmPasswordCont.classList.remove('error');
+    //     confirmPasswordError.innerText = "";
+    // }
 
 });
