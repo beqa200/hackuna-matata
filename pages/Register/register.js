@@ -31,7 +31,7 @@ button.addEventListener('click', function() {
         passwordError.innerText = "";
     }
 
-    button.setAttribute("href", "hhtps")
+    // button.setAttribute("href", "hhtps")
 
     // if ()
 
