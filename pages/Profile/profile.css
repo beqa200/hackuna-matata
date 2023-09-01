@@ -669,21 +669,41 @@ body {
 
 
 
+.mirror-name, .mirror-lastname {
+font-family: 'Instrument Sans', sans-serif;
+color: var(--Dark-Grey, #333);
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%;
+}
+
+
+
 .mirror-name {
   position: absolute;
-  left: 280px;
-  top: 410px;
+  left: 290px;
+  top: 406px;
 }
+
 
 .mirror-lastname {
   position: absolute;
-  left: 350px;
-  top: 410px;
+  left: 330px;
+  top: 406px;
 }
+
 
 .mirror-email {
   position: absolute;
-  left: 310px;
+  left: 285px;
   top: 435px;
-  
+  color: var(--Grey, #737373);
+  font-family: Instrument Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
+
+
