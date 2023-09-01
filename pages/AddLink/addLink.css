@@ -226,10 +226,26 @@ body {
 
 .social-link {
     display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 44px;
     border-radius: 8px;
     text-decoration: none;
+}
+
+.social-link div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.social-link div img {
+    width: 16px;
+    height: 16px;
+}
+
+.social-link div {
+    
 }
 
 .links-dropdown-cont {
