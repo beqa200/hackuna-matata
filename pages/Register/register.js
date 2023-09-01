@@ -31,16 +31,4 @@ button.addEventListener('click', function() {
         passwordError.innerText = "";
     }
 
-    // button.setAttribute("href", "hhtps")
-
-    // if ()
-
-    // if (!confirmPassword) {
-    //     confirmPasswordCont.classList.add('error');
-    //     confirmPasswordError.innerText = "gela";
-    // } else {
-    //     confirmPasswordCont.classList.remove('error');
-    //     confirmPasswordError.innerText = "";
-    // }
-
 });

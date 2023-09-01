@@ -262,23 +262,21 @@ let lastname = document.querySelector('#lastname');
 let email = document.querySelector('#email');
 
 
-button.addEventListener('click', function() {
+saveBtn.addEventListener('click', function() {
     
   if (!email.value) {
       email.classList.add('error');
-      // emailError.innerText = "Can’t be empty";
   } else {
       email.classList.remove('error');
-      emailError.innerText = ""
   }
 
-  if (!pasSword.value) {
-      passwordCont.classList.add('error');
-      passwordError.innerText = "Please check again";
-  } else {
-      passwordCont.classList.remove('error');
-      passwordError.innerText = "";
-  }
+  // if (!pasSword.value) {
+  //     passwordCont.classList.add('error');
+  //     passwordError.innerText = "Please check again";
+  // } else {
+  //     passwordCont.classList.remove('error');
+  //     passwordError.innerText = "";
+  // }
 
 });
 

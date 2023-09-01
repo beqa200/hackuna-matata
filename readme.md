@@ -11,6 +11,16 @@ Devlinks website created by refernece given in Figma for BitCamp Collab Project
 - Profile can be previewed by Registered User;
 - All data is being sorted in local storage;
 
+### Getting Started
+
+1. First of all you need to clone app repository from github:
+
+   ```
+   git clone git@github.com:beqa200/hackuna-matata.git
+   ```
+
+2. Next step requires to start live server.
+
 ## Links
 
 - Solution URL: [Github](https://github.com/beqa200/hackuna-matata)
