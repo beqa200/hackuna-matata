@@ -48,7 +48,13 @@
 
     <div class="links-phone-main">
 
-      <img src="../../assets/images/illustration-phone-mockup.svg" alt="" class="phone-img">
+      <img src="../../assets/images/illustration-phone-mockup.svg" alt="" id="phone-img-id" class="phone-img">
+
+    <h4 class="mirrored-text"> 
+      <p id="mirror-name" class="mirror-name"></p><br>
+      <p id="mirror-lastname" class="mirror-lastname"></p><br>
+      <p id="mirror-email" class="mirror-email"></p>
+    </h4>
 
     </div>
 
@@ -87,7 +93,7 @@
       <div class="profile-info">
         <div class="input2">
           <p class="input-instruction">First name*</p>
-          <input type="text" class="input1" id="name" placeholder="e.g. John" />
+          <input type="text" class="input1" id="name" placeholder="e.g. John" oninput="mirrorFirstName()"/>
         </div>
 
 
@@ -95,12 +101,12 @@
 
         <div class="input2">
           <p class="input-instruction">Last name*</p>
-          <input type="text" class="input1" id="lastname" placeholder="e.g. Appleseed" />
+          <input type="text" class="input1" id="lastname" placeholder="e.g. Appleseed" oninput="mirrorLastName()"/>
         </div>
 
         <div class="input2">
           <p class="input-instruction">Email</p>
-          <input type="text" class="input1" id="Email" placeholder="e.g. email@example.com">
+          <input type="text" class="input1" id="Email" placeholder="e.g. email@example.com"  oninput="mirrorEmail()">
         </div>
 
       </div>

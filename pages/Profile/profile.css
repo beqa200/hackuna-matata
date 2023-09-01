@@ -666,3 +666,24 @@ body {
   }
 
 }
+
+
+
+.mirror-name {
+  position: absolute;
+  left: 280px;
+  top: 410px;
+}
+
+.mirror-lastname {
+  position: absolute;
+  left: 350px;
+  top: 410px;
+}
+
+.mirror-email {
+  position: absolute;
+  left: 310px;
+  top: 435px;
+  
+}
