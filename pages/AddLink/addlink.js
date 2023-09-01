@@ -5,6 +5,7 @@ const empty = document.querySelector(".links-started-main-cont");
 const phone = document.querySelector(".link-results");
 const save = document.querySelector(".save-btn");
 
+
 const storedLinks = localStorage.getItem("links");
 if (storedLinks) {
   links?.insertAdjacentHTML("beforeend", storedLinks);
@@ -34,6 +35,7 @@ linksArray?.map((item, index) => {
 
 hideAndAppearEmptySection();
 addEventListenerToRemoveButton();
+
 
 
 
@@ -88,6 +90,7 @@ save.addEventListener("click", () => {
     save.setAttribute("href", "../Profile/profile.html");
   }
 });
+
 
 
 
@@ -214,6 +217,9 @@ function linkChild(num) {
   </select>
  <div class="input-text">
   <label for="link">link<label>
+
+    <img class="links-header" src="../../assets/images/icon-links-header.svg" alt="" />
+
     
  <input class="link-input"  type="text">
  <p class="error">Can’t be empty</p>
