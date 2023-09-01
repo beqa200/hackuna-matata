@@ -668,7 +668,3 @@ body {
  border: 1px solid var(--Red, #FF3939);;
 }
 
-.error-message {
-  color: red;
-  font-size: 12px;
-}
