@@ -31,4 +31,29 @@ button.addEventListener('click', function() {
         passwordError.innerText = "";
     }
 
+    if (
+        email.value &&
+        password.value &&
+        confirmPassword.value == password.value
+      ) {
+        const prevUsers = JSON.parse(localStorage.getItem("users"));
+    
+        if (prevUsers) {
+          localStorage.setItem(
+            "users",
+            JSON.stringify([
+              ...prevUsers,
+              { email: email.value, password: password.value },
+            ])
+          );
+        } else {
+          localStorage.setItem(
+            "users",
+            JSON.stringify([{ email: email.value, password: password.value }])
+          );
+        }
+    
+        button.setAttribute("href", "../../index.html")
+      }
+
 });
